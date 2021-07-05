@@ -1,0 +1,18 @@
+.card{
+  border: 1px solid black;
+  margin-top: 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  padding: 1rem;
+}
+
+.card-desc{
+  margin-left: 2rem;
+}
+
+.card-avatar__image{
+  object-fit: contain;
+  width: 200px;
+  border-radius: 10px;
+}
