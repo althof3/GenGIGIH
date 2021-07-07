@@ -1,6 +1,6 @@
-const onSubmitForm = (event) => {
+const onSubmitForm = (form, event) => {
   event.preventDefault();
+  console.log(form);
   alert('data submited succesfully! 😄')
-  document.getElementById('title').value = ''
-  document.getElementById('description').value = ''
+  form.reset()
 }
