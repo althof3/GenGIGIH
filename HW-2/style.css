@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid black;
+  margin-top: 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  padding: 1rem;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.card-desc {
+  margin-left: 2rem;
+}
+
+.card-avatar__image {
+  object-fit: contain;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.fetch-btn {
+  margin: auto;
+  width: fit-content;
+  display: block;
+}
+
+#playlist-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
