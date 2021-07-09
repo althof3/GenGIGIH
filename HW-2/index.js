@@ -13,7 +13,8 @@ const onSubmitForm = (form, event) => {
 const renderNewCard = (data) => {
   tracksContainer.insertAdjacentHTML(
     "beforeend",
-    `<div class='card'>
+    `<div class='card'>ls
+    
       <div class='card-avatar'>
         <img class='card-avatar__image' src=${data.album.images[1].url} alt=${data.album.name}>
       </div>
